@@ -99,7 +99,7 @@ web3__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (awai
 
 let web3;
 if (false) {} else {
-    const provider = new web3__WEBPACK_IMPORTED_MODULE_0__["default"].providers.HttpProvider("https://sepolia.infura.io/v3/09f799bc191341f7b809f509e453f6f6");
+    const provider = new web3__WEBPACK_IMPORTED_MODULE_0__["default"].providers.HttpProvider("https://eth-sepolia.g.alchemy.com/v2/tHVqhbO7_RsGSrQrK67i9E9D3k2ZWm1j");
     web3 = new web3__WEBPACK_IMPORTED_MODULE_0__["default"](provider);
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (web3);

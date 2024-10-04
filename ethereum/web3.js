@@ -8,7 +8,7 @@ if (typeof window !== 'undefined' && typeof window.ethereum !== 'undefined') {
   web3 = new Web3(window.ethereum);
 } else {
   const provider = new Web3.providers.HttpProvider(
-    'https://sepolia.infura.io/v3/09f799bc191341f7b809f509e453f6f6'
+    'https://eth-sepolia.g.alchemy.com/v2/tHVqhbO7_RsGSrQrK67i9E9D3k2ZWm1j'
   );
   web3 = new Web3(provider);
 }
