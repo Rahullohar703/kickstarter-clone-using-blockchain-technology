@@ -1,0 +1,9 @@
+{
+    "build": {
+      "env": {
+        "NODE_OPTIONS": "--openssl-legacy-provider"
+      },
+      "installCommand": "npm install --legacy-peer-deps"
+    }
+  }
+  
