@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha",
     "dev": "node server.js",
-    "build": "npx vercel build --legacy-peer-deps",
+    "build": "next build",
     "start": "SET NODE_ENV=production && node server.js"
   },
   "author": "",
